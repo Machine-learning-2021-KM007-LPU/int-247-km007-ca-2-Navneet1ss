@@ -31,7 +31,7 @@ K-Fold:
 That method is known as “k-fold cross validation”. It’s easy to follow and implement. Below are the steps for it:<br>
 
 Randomly split your entire dataset into k”folds”<br>
-For each k-fold in dataset, build model on k – 1 folds of the dataset. Then, test the model to check the effectiveness for kth fold<br><br>
+For each k-fold in dataset, build model on k – 1 folds of the dataset. Then, test the model to check the effectiveness for kth fold<br>
 Record the error on each of the predictions<br>
 Repeat this until each of the k-folds has served as the test set<br><br>
 The average of k recorded errors is called the cross-validation error and will serve as performance metric for the model<br>
