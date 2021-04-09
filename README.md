@@ -5,10 +5,10 @@ The problem consists in classifying all the blocks of the page layout of a docum
 text (1)<br>
 horizontal line (2)<br>
 picture (3)<br>
-vertical line (4)br>
-graphic (5)<br> <br>
+vertical line (4)<br>
+graphic (5)<br>
 
-Relevant Information Paragraph:<br The 5473 examples comes from 54 distinct documents.
+Relevant Information Paragraph: The 5473 examples comes from 54 distinct documents.
 Each observation concerns one block.
 All attributes are numeric.<br>
 
@@ -25,3 +25,13 @@ mean_tr: continuous. | Mean number of white-black transitions (blackpix / wb_tra
 blackpix: integer. | Total number of black pixels in the original bitmap of the block.<br>
 blackand: integer. | Total number of black pixels in the bitmap of the block after the RLSA.<br>
 wb_trans: integer. | Number of white-black transitions in the original bitmap of the block.<br>
+<br>
+Gaussian NB<br>
+K-Fold:
+That method is known as “k-fold cross validation”. It’s easy to follow and implement. Below are the steps for it:<br>
+
+Randomly split your entire dataset into k”folds”<br>
+For each k-fold in dataset, build model on k – 1 folds of the dataset. Then, test the model to check the effectiveness for kth fold<br><br>
+Record the error on each of the predictions<br>
+Repeat this until each of the k-folds has served as the test set<br><br>
+The average of k recorded errors is called the cross-validation error and will serve as performance metric for the model<br>
