@@ -1,5 +1,6 @@
 # int-247-km007-ca-2-Navneet1ss
-int-247-km007-ca-2-Navneet1ss created by GitHub Classroom
+int-247-km007-ca-2-Navneet1ss created by GitHub Classroom <br>
+
 The problem consists in classifying all the blocks of the page layout of a document that has been detected by a segmentation process. This is an essential step in document analysis in order to separate text from graphic areas. Indeed, the five classes are:
 text (1)
 horizontal line (2)
