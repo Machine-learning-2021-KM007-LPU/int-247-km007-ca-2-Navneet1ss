@@ -35,3 +35,7 @@ For each k-fold in dataset, build model on k – 1 folds of the dataset. Then, t
 Record the error on each of the predictions<br>
 Repeat this until each of the k-folds has served as the test set<br><br>
 The average of k recorded errors is called the cross-validation error and will serve as performance metric for the model<br>
+<br>
+Stratified K-Fold<br>
+Stratification is the process of rearranging the data so as to ensure that each fold is a good representative of the whole.
+It is generally a better approach when dealing with both bias and variance. A randomly selected fold might not adequately represent the minor class, particularly in cases where there is a huge class imbalance.
